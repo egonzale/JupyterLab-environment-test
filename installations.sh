@@ -9,7 +9,7 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 # Configure
 git clone https://github.com/geo-python/JupyterLab-environment-test.git
 
-pip install -y geopandas
+pip install geopandas
 
 # Install geopandas using conda
 conda install -y -c conda-forge shapely
